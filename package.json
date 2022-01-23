@@ -1,0 +1,26 @@
+{
+  "name": "hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "better-sqlite3": "^7.5.0",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "knex": "^1.0.1",
+    "node-gyp": "^8.4.1",
+    "rebuild": "^0.1.2",
+    "sqlite3": "^5.0.2",
+    "vscode-sqlite3": "^4.0.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node homework",
+    "dev": "nodemon homework"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
